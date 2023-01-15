@@ -1,35 +1,3 @@
-* {
-  box-sizing: border-box;
-}
-
-/* Event Styles (in the table, ie: <td> elements ================================= */
-.event-range-start {
-  border-left: 2px;
-}
-
-.event-range-end {
-  border-right: 2px;
-}
-
-.event-range-single {
-  border: 2px solid red;
-}
-
-.bg-yellow {
-  background-color: #ffdc00;
-}
-
-.bg-green {
-  background-color: #2ecc40;
-}
-
-.bg-blue {
-  background-color: #0074d9;
-}
-
-.bg-red {
-  background-color: #ff4136;
-}
 
 [data-event] {
   border-radius: 3px;
@@ -158,6 +126,10 @@
 }
 
 /* Default Styles ================================================== */
+
+* {
+  box-sizing: border-box;
+}
 
 body {
   margin: 0;
